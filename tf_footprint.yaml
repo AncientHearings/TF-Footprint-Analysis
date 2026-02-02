@@ -1,0 +1,16 @@
+name: tf-footprint
+channels:
+ -bioconda
+ -conda-forge
+ -defaults
+dependencies:
+  - python=3.9
+  - tobias  # The main footprinting framework Bentsen, M., Goymann, P., Schultheis, H. et al. ATAC-seq footprinting unravels kinetics of transcription factor binding during zygotic genome activation. Nat Commun 11, 4267 (2020). https://doi.org/10.1038/s41467-020-18035-1'
+  - samtools
+  - bedtools
+  - pybedtools
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - biopython
